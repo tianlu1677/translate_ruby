@@ -1,0 +1,7 @@
+Chapter 7
+=====
+Regular Expressions
+=====
+We probably spend most of our time in Ruby working with strings, so it seems reasonable for Ruby to have some great tools for working with those strings. As we’ve seen, the ​String​ class itself is no slouch—it has more than 100 methods. But there are still things that the basic ​String​ class can’t do. For example, we might want to see whether a string contains two or more repeated characters, or we might want to replace every word longer than fifteen characters with its first five characters and an ellipsis. This is when we turn to the power of regular expressions.
+
+Now, before we get too far in, here’s a warning: there have been whole books written on regular expressions.[41] There is complexity and subtlety here that rivals that of the rest of Ruby. So if you’ve never used regular expressions, don’t expect to read through this whole chapter the first time. In fact, you’ll find two emergency exits in what follows. If you’re new to regular expressions, I strongly suggest you read through to the first and then bail out. When some regular expression question next comes up, come back here and maybe read through to the next exit. Then, later, when you’re feeling comfortable with regular expressions, you can give the whole chapter a read.
